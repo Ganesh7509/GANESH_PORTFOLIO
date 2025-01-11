@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <h1 class="nav_head">Ganesh.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="checkbox" class="checkbtn" aria-label="Toggle menu" role="button">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+    </nav>
+    <section id="home" class="home">
+  <img src="./image/my photo (1).jpg" alt="Ganesh Kunde's photo" width="450px" height="400px">
+  <div class="description">
+    <h1>Hello I'm<br><span>Ganesh Kunde</span></h1>
+    <h2>I'm a <span>Full stack developer....</span></h2>
+    <p style="color: rgb(247, 113, 3);">"Welcome! I’m here to create, innovate, and deliver."</p>
+    <p>As a passionate full-stack developer, I believe in the power of clean code to create meaningful solutions that drive innovation and success.</p>
+    <div class="font" style="text-decoration: none;">
+        <a href="mailto:kundeganesh52@gmail.com" target="_blank" style="text-decoration: none; color: inherit;">
+            <i class="fa-brands fa-google"></i>
+        </a>
+        
+        <a href="https://github.com/Ganesh7509" target="_blank" style="text-decoration: none; color: inherit;">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ganesh-kunde-73b534229/" target="_blank" style="text-decoration: none; color: inherit;">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="tel:7702505896" style="text-decoration: none; color: inherit;">
+            <i class="fas fa-phone"></i>
+        </a>
+        
+    </div>
+    <button>Download Cv</button>
+  </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Full stack <span>Developer!</span></h2>
+            <p id="intro-text">
+                Hello, I'm Ganesh Kunde, a passionate and driven Web Developer specializing in both frontend and backend technologies. With a strong foundation in JavaScript, React, and Node.js, I strive to build intuitive, dynamic, and responsive websites that offer exceptional user experiences. I take pride in solving complex problems and transforming ideas into clean, functional code.
+            </p>
+            <p id="more-info" style="display: none;">
+                As a Full Stack Developer, I have expertise in creating full-fledged web applications using technologies like HTML, CSS, JavaScript, React.js, Node.js, and Express. I am proficient in using databases such as MongoDB and MySQL, ensuring data is managed efficiently for seamless user interaction. I'm dedicated to continuous learning, keeping up with the latest trends in web development to deliver cutting-edge, high-quality solutions.
+                <br><br>
+                I believe in the power of collaboration and thrive in environments that promote teamwork and creativity. Whether it's enhancing UI/UX design or optimizing backend performance, I always aim to improve and create value. I'm eager to take on new challenges, grow as a developer, and contribute to impactful projects.
+            </p>
+            <button class="about_btn" id="read-more-btn">Read More...</button>
+        </div>
+    </section>
+    
+    <section id="service">
+        <h1 class="service_section"> <span>My Services</span></h1>
+        <div class="card">
+            <div class="service_card">
+                <i class="fas fa-code"></i>
+                <h2>Frontend Development</h2>
+                <p>With expertise in HTML, CSS, JavaScript, and frameworks like React and Bootstrap, I specialize in creating visually stunning, interactive, and responsive user interfaces. My designs prioritize usability and accessibility, ensuring that the user experience is seamless across devices and browsers. From landing pages to dynamic web applications, I focus on delivering pixel-perfect designs that align with modern web standards.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-server"></i>
+                <h2>Backend Development</h2>
+                <p>As a backend developer, I design and implement robust, secure, and scalable server-side solutions using Node.js, Express.js, and MongoDB. My work includes building RESTful APIs, managing databases, and ensuring the smooth integration between frontend and backend systems. I excel in optimizing performance, maintaining data integrity, and crafting solutions that meet business needs while adhering to industry best practices.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-globe"></i>
+                <h2>Full-Stack Web Development</h2>
+                <p>Combining my expertise in both frontend and backend technologies, I offer comprehensive full-stack development services. This includes designing intuitive user interfaces, developing efficient backend architectures, and seamlessly integrating both for a unified web application. I am experienced in using the MERN stack (MongoDB, Express.js, React, Node.js) to deliver robust, scalable, and efficient applications that solve real-world problems.</p>
+            </div>
+        </div>
+    </section>
+   
+    <section id="projects">
+        <h1 class="port_section">My <span>Projects</span></h1>
+        <div class="project">
+            <!-- CRUD Operations Project -->
+            <div class="port_card">
+                <img src="./image/DALL·E 2025-01-11 00.03.12 - A sleek and modern CRUD operation dashboard interface showing a data table with options for add, edit, and delete. The layout is clean, professional, .webp" alt="CRUD Operations Project" width="350px" height="350px">
+                <div class="content">
+                    <h1>CRUD Operations</h1>
+                    <p>This project demonstrates the basics of CRUD (Create, Read, Update, Delete) operations. I built a web app that allows users to perform these operations on data. It showcases the use of a backend database with dynamic form inputs and real-time data manipulation.</p>
+                    <a href="https://crud-operations-front-end.onrender.com" target="_blank" class="btn">Live Demo</a>
+                    <a href="https://github.com/Ganesh7509/crud-operations" target="_blank" class="btn">View Code</a>
+                </div>
+            </div>
+    
+            <!-- Weather App Project -->
+            <div class="port_card">
+                <img src="./image/44791.jpg" alt="Weather App" width="350px" height="350px">
+                <div class="content">
+                    <h1>Weather App</h1>
+                    <p>A simple and intuitive weather app that allows users to search for weather conditions of any location.It can be dynamically created Built using an API to fetch real-time weather data, providing users with up-to-date information on temperature, humidity, and more.</p>
+                    <a href="https://ganesh7509.github.io/Weather-App/" target="_blank" class="btn">Live Demo</a>
+                    <a href="https://github.com/Ganesh7509/Weather-App" target="_blank" class="btn">View Code</a>
+                </div>
+            </div>
+    
+            <!-- E-Mart Application -->
+            <div class="port_card">
+                <img src="./image/online-shop-6401739_640.png" alt="E-Mart Application" width="350px" height="350px">
+                <div class="content">
+                    <h1>E-Mart Application</h1>
+                    <p>An e-commerce platform that enables users to browse and purchase products. With features such as product categories, search functionality, and user authentication, this project showcases my skills in building a full-fledged shopping web application.
+                        
+                        This web application allows users to browse, search, and purchase products effortlessly. Built with modern technologies, it offers an intuitive interface, advanced functionality, and a secure environment for users to shop.
+                    </p>
+                    <a href="https://shopping-cart-gray-ten-55.vercel.app/" target="_blank" class="btn">Live Demo</a>
+                    <a href="https://github.com/Ganesh7509/shopping-cart" target="_blank" class="btn">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- contact  -->
+  <section id="contact">
+    <div class="container">
+        <div class="header">
+            <h3>Contact</h3>
+            <h1>Reach me out via:</h1>
+        </div>
+        <div class="wrapper">
+            <div class="grp">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>kundeganesh52@gmail.com</span>
+            </div>
+            <div class="grp">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 77 02 50 58 96</span>
+            </div>
+            <!-- <div class="grp">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>@WebDevWizard0</span>
+            </div> -->
+        </div>
+        <div class="footer">
+            <p>Let's talk about a project</p>
+            <a href="mailto:kundeganesh52@gmail.com">
+                Hire Me <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<a href="#" class="back-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+    <script>
+      document.getElementById("read-more-btn").addEventListener("click", function() {
+    var moreInfo = document.getElementById("more-info");
+    var introText = document.getElementById("intro-text");
+
+    if (moreInfo.style.display === "none") {
+        moreInfo.style.display = "block"; 
+        this.textContent = "Read Less..."; 
+    } else {
+        moreInfo.style.display = "none";
+        this.textContent = "Read More..."; 
+    }
+});
+  
+    </script>
+</body>
+</html>
